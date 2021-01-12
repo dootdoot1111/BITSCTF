@@ -29,4 +29,4 @@ Since the format to run the binary is given, we run :
 >>> ./loose_strings <REDACTED_USER> <REDACTED_PASS>
 ```
 
-To get out flag!!
+To get our flag!!
