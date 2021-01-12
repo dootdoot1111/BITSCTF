@@ -14,4 +14,10 @@ steghide extract -sf Random_guy.jpg
 
 Enter the password '69' next and you'll be able to extract a text file named 'embedded.txt'. Open the text file, to get the password for your zip file.
 
-Unzip with the found password, check out not bod.txt, to get your flag! (Remember to add the flag format BITSCTF{...} )
+Unzip with the found password, check out not bad.txt, to get your flag! (Remember to add the flag format BITSCTF{...} )
+
+This is only one of the ways to solve this challenge apparently. One of the text files in the zip file was not password protected and could be normally extracted out. The text file contained the word 'getRekt'. (The irregular capital 'R' caught my attention). 
+
+We encode the word with caesar cipher (hence the random guy image) with the 'master' password 69, to get the password to the zip file.
+
+Dunno why this challenge had to ways to solve, but both were fun anyway.
