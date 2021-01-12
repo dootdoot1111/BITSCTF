@@ -1,5 +1,7 @@
 # r3qu3sts
 
+Challenge link
+
 This challenges introduces us to concept of POST. POST is a method of sending data to a server. It is the most commonly used method for sending username and password for authentication.
 POST requests are usually sent over a http-post-form, but since we dont see anything in our challenge link, we'll be using the CLI command curl for it. 
 
