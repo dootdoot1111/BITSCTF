@@ -14,4 +14,4 @@ The question itself is pretty straightforward. We just need to find a number whi
 
 The key can be then found from it, by first getting the binary representation of that number, splitting it into chunks of 5 and decoding the individual components to letters. the last step involves the use of 'Bacon' cipher.
 
-I wrote a short python script for it, which i have attached. Run it to get the flag!
+I wrote a short [python script](https://github.com/dootdoot1111/BITSCTF/blob/main/Crypto/Stop%20Twitching/xorpls.py) for it, which i have attached. Run it to get the flag!
