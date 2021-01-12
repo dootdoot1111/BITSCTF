@@ -1,4 +1,4 @@
-This challenge provides us with a binary and asks us to reverse engineer it go get thw source code. Not exactly, but yeah, kinda. On running the binary we see :
+This challenge provides us with a binary and asks us to reverse engineer it go get the source code. Not exactly, but yeah, kinda. On running the binary we see :
 
 ```
 >>> ./noah
