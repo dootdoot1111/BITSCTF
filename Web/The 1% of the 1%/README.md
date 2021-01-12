@@ -14,4 +14,4 @@ Navigate to the javascript by adding the name of the js file after /web_chall3/ 
 
 Navigate to the html file, to fing you flag!
 
-PS: This is not the intended way to solve this challenge, rather the challenge asks you to change you user-agent string to "Samsung Smart Fridge" and click on the recieve coupon to get the flag.User-agent can be switched quickly by installing some addons to your Browser(Chrome/Firefox). But Samsung Smart fridges are too expensive for me.
+PS: This is not the intended way to solve this challenge, rather the challenge asks you to change you user-agent string to "Samsung Smart Fridge" and click on the recieve coupon to get the flag. User-agent can be switched quickly by installing some addons to your Browser(Chrome/Firefox). But Samsung Smart fridges are too expensive for me.
