@@ -4,7 +4,7 @@ We'll do what the challenge title says and just not think too much. This time th
 
 Well the image is not that of a random dude but is that of the great Julius Caesar. To solve with challenge you require a tool most commonly used for [steganography](https://en.wikipedia.org/wiki/Steganography) problems in CTF's called steghide.
 
-[Steghide](https://github.com/StefanoDeVuono/steghide) is used to hide data in LSB of jpeg images. It can also be password protected, which it is, for our challenge.
+[Steghide](https://github.com/StefanoDeVuono/steghide) is used to hide data in LSB(Least Significant Bits) of jpeg images. It can also be password protected, which it is, for our challenge.
 
 First we use the 'master' password in the text file provided, which is, well, as it happens to be, 69. (Nice) Extract the hidden text file from the image useing steghide as follows:
 
@@ -20,4 +20,4 @@ This is only one of the ways to solve this challenge apparently. One of the text
 
 We encode the word with caesar cipher (hence the random guy image) with the 'master' password 69, to get the password to the zip file.
 
-Dunno why this challenge had to ways to solve, but both were fun anyway.
+Dunno why this challenge had two ways to solve, but both were fun anyway.
