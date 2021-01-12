@@ -53,7 +53,7 @@ int main(int argc, char **argv)
 The noticeable stuff here, is that the function uses the gets(). gets() is a very vulnerable function, and is now replaced by fgets() in C language. The problem with gets is that the function does'nt know about the buffer and continues reading till the EOF(end of file).
 The first computer virus(The Morris Worm) exploited this. 
 
-Moving to our challenge, we can see in the source code, the buffer size for the string, and we simply pass a string greater in sixe than that, causing it to to overflow.
+Moving to our challenge, we can see in the source code, the buffer size for the string, and we simply pass a string greater in size than that, causing it to to overflow.
 You can do this by :
 
 ```
