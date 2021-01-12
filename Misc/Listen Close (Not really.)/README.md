@@ -8,7 +8,7 @@ Next, we view the 'Spectrogram' of the audio file. It is a visual representation
 
 ![SpectrogramSelect](https://github.com/dootdoot1111/BITSCTF/raw/main/Misc/Listen%20Close%20(Not%20really.)/Screenshot%202021-01-12%20at%201.23.24%20PM.png)
 
-After the screen turns somewhat colourful, stretch the waveform, a bit until the text, becomes clear and readable.(Which is a bit tough, you'll nead to focus, it hurts your eye tho).
+After the screen turns somewhat colourful, stretch the waveform, a bit until the text, becomes clear and readable.(Which is a bit tough, you'll need to focus, it hurts your eye tho).
 
 If you struggle with getting a clear image, try using other spectrogram tools, like [Sonic Visualiser](https://sonicvisualiser.org/download.html), or online tools.
 
