@@ -12,4 +12,16 @@ For example, all ZIP files have the same file headers(or signatures) :
 
 These 'magic numbers' help a machine understand what file format a file has. Coming back to JPEG files. All JPEG files possess the following header:
 
-![jpegfileformat]()
+![jpegfileformat](https://github.com/dootdoot1111/BITSCTF/raw/main/Forensics/Houdini%20goes%20for%20a%20meal/jpgfileformat.jpg)
+
+You can understand and compare this to the file given to us that it is malformed and is missing some bytes from the header.
+
+We add '49 46' at offset 8 to our file and change the extension to '.jpg', and lo behold, a cool jpeg image! 
+
+Now the last step demands us to revisit steganography, with steghide. Use steghide on this image with password, well, it couldn't be more obvious, "STEGOHIDEO". Yeah, That ez. Run :
+
+```
+steghide extract -sf Houdini_goes_for_a_meal.jpg
+```
+
+Enter the password to get the Flag.txt file!
