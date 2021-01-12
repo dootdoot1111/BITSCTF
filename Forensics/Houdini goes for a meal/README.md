@@ -12,4 +12,4 @@ For example, all ZIP files have the same file headers(or signatures) :
 
 These 'magic numbers' help a machine understand what file format a file has. Coming back to JPEG files. All JPEG files possess the following header:
 
-![jpegfileformat](/jpgfileformat.jpg)
+![jpegfileformat]()
