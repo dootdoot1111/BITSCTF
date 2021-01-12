@@ -426,4 +426,4 @@ still?
 ```
 
 Damn, ok here, have some more ctf [challenges](https://ufile.io/kvzfzcbh) made by me! (All involve steganography, cryptography and forensics tho. No rev, I hate rev.)
-Contact e on Discord (@DootDoot) for writeup/help.
+Contact me on Discord (@DootDoot) for writeup/help.
