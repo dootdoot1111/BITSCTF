@@ -10,7 +10,7 @@ Challenge text :
 
 ##### Can you help Ryan find the key that was used. Flag Format = BITSCTF{key}
 
-The question itself is pretty straightforward. We just need to find a number which when xorr'ed to the three numbers will make the equation mathematically correct. This can be done fairly easily through burteforce!!
+The question itself is pretty straightforward. We just need to find a number which when xorr'ed to the three numbers will make the equation mathematically correct. This can be done fairly easily through bruteforce!!
 
 The key can be then found from it, by first getting the binary representation of that number, splitting it into chunks of 5 and decoding the individual components to letters. the last step involves the use of 'Bacon' cipher.
 
