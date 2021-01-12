@@ -23,6 +23,8 @@ format is ./filename <username> <password>
 incorrect username or password
 ```
 
+The strings command used above return all the human readable strings in a binary file.
+
 Since the format to run the binary is given, we run :
 
 ```
