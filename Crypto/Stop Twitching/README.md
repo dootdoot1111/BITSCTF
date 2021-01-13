@@ -17,3 +17,5 @@ The key can be then found from it, by first getting the binary representation of
 I wrote a short [python script](https://github.com/dootdoot1111/BITSCTF/blob/main/Crypto/Stop%20Twitching/xorpls.py) for it, which i have attached. Run it to get the flag!
 
 PS: The flag and the challenge name all reference to the 'Pog' emote often used on the livestreaming site [Twitch](https://www.twitch.tv).
+
+PPS : The term Pog originates from an age old iconic blooper reel featuring [Ryan Gootecks, in his hilarious "POG" face](https://www.youtube.com/watch?v=g9TNY75jhcs&t=127).
