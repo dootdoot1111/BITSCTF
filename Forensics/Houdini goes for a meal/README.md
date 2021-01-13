@@ -16,7 +16,7 @@ These 'magic numbers' help a machine understand what file format a file has. Com
 
 You can understand and compare this to the file given to us that it is malformed and is missing some bytes from the header.
 
-We add '49 46' at offset 8 to our file and change the extension to '.jpg', and lo behold, a cool jpeg image! 
+We add '49 46' at offset 8 to our file and change the extension to '.jpg', and lo behold, a cool jpeg image! To add these Hexadecimal bytes, you can use nay hex editors [online](https://hexed.it/) or just install one.
 
 Now the last step demands us to revisit steganography, with steghide. Use steghide on this image with password, well, it couldn't be more obvious, "STEGOHIDEO". Yeah, That ez. Run :
 
