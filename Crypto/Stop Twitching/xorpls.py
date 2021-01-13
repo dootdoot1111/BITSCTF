@@ -16,7 +16,9 @@ for x in range(0, c):
 
 intArr = []
 for x in range(1, len(ascii_lowercase)):
-    intArr.append(bin(x)[2:].zfill(5))        # just created an array having binary numbers from 1 to 26 
+    intArr.append(bin(x)[2:].zfill(5))        # just created an array having binary numbers from 1 to 26
+    # zfill function was used above to ensure that the length of the decimal number when converted to binary is 5
+    # Since python converts 1 to binary as '1', but we need '00001' We padded with adding 0's to the left
 
 bacon_dict = dict(zip(intArr, ascii_lowercase))     
 
@@ -26,6 +28,7 @@ bacon_dict = dict(zip(intArr, ascii_lowercase))
 # Well, yes, but if you notice the key and its binary representaion in the challenge text, you'll see the that the binary representation
 # when decoded as bacon cipher actually gives the string key, but the alphabets are shifted by 1. So instead, we just mapped the positions 
 # of the alphabets to its next position, or we mapped a to 1 and z to 26, since its the same as shifting the 0th alphabet to the 1st one.
+
 # I tried to explain. Emphasis on tried.
 
 print("BITSCTF{", end='')       # just ensuring the flag format. The end=''; stuff just ensured we don't print a newline
