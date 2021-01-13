@@ -1,4 +1,4 @@
-from string import ascii_lowercase  #just imported the lowercase alphabets(abcdefghijk...)
+from string import ascii_lowercase  #just imported the lowercase alphabets(abcdefghijk...), which means a variable named ascii_lowercase was created having value 'abcdefghjikl....z'
 
 a = 69                                                                           #nice
 b = 420
