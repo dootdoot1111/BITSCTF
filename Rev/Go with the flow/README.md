@@ -236,7 +236,7 @@ Here, notice :
 ```asm
 0x000012f9      4883ec50       sub rsp, 0x50
 ```
-What happens here is that, the stack pointer is shifted by 0x50 or 80 in decimal. Hence the buffer capacity for our stack is 80. Next we try to overflow the buffer and try to call the function sym.winfucntion . To do that, after we overflow the buffer, we will add the memory address of the sym.winfucntion which is '0x00001145' as seen in the output of our afl command. Again due to the difference in [endianness](https://en.wikipedia.org/wiki/Endianness) we will enter it backwards, i.e 0x45 first, 0x11 next. Also this time I'll be using python to print all the A's and the hex bytes. Why? Cos I'm lazy to type A's.
+What happens here is that, the stack pointer is shifted by 0x50 or 80 in decimal. Hence the buffer capacity for our stack is 80. Next we try to overflow the buffer and try to call the function sym.winfucntion . To do that, after we overflow the buffer, we will add the memory address of the sym.winfucntion which is '0x00001145' as seen in the output of our afl command. Again due to the difference in [endianness](https://en.wikipedia.org/wiki/Endianness) we will enter it backwards, i.e 0x45 first, 0x11 next. Also this time I'll be using python to print all the A's and the hex bytes. Why? Cos I'm too lazy to type A's.
 
 ```
 >>>python -c "print 'A' * 80 + '\x45\x11\x00\x00'" | ./Go_with_the_flow
