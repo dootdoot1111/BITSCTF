@@ -18,7 +18,7 @@ You can understand and compare this to the file given to us that it is malformed
 
 We add '49 46' at offset 8 to our file and change the extension to '.jpg', and lo behold, a cool jpeg image! To add these Hexadecimal bytes, you can use any hex editors [online](https://hexed.it/) or just install one.
 
-Now the last step demands us to revisit steganography, with steghide. Use steghide on this image with password, well, it couldn't be more obvious, "STEGOHIDEO". Yeah, That ez. Run :
+Now the last step demands us to revisit steganography, with steghide. Use steghide on this image with password, well, it couldn't be more obvious, literally in the image, "STEGOHIDEO". Yeah, That ez. Run :
 
 ```
 steghide extract -sf Houdini_goes_for_a_meal.jpg
