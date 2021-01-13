@@ -8,7 +8,7 @@ We'll use a reversing tool commonly used called [radare2](https://github.com/rad
 We'll start by running radare2 and analyzing the binary :
 
 ```
-r2 Go_with_the_flow
+>>>r2 Go_with_the_flow
 
 
  -- Can you stand on your head?
