@@ -199,7 +199,7 @@ Now, we will try to print all functions and sections in this binary. This can be
 
 With this disassembled function you can see, the flag has been broken into different parts letter by letter. Bring them all together, to get the flag!
 
-Also, as mentioned before, this is not the correct way to solve this challenge. To solve this challenge, we need to first find the point of its buffer overflow.We can disassemble the main function for that :
+Also, as mentioned before, this is not the correct way to solve this challenge. To solve this challenge, we need to first find the point of its buffer overflow. We can disassemble the main function for that :
 
 ```asm
 [0x00001060]> pdf @main
