@@ -32,7 +32,7 @@ if (security_check == 0x1337C0D3)
     }
 ```
 
-So, the bytes after the overflow are being stored in the security_check variable. We need the value for that variable be "0x1337C0D3". But since these bytes are non-printable, we have to use python, to print them.
+So, the bytes after the overflow are being stored in the security_check variable. We need the value for that variable be "0x1337C0D3". But since these bytes are non-printable, we have the [echo](https://www.howtogeek.com/446071/how-to-use-the-echo-command-on-linux/) command, to print them.
 
 Also, since difference in [endianness](https://en.wikipedia.org/wiki/Endianness) , we need to input the hex bytes after overflow in the reverse order. That is '0xd3' comes first then '0xc0' and so on. But since we need to input the characters as command line arguement and some of the hex bytes are non printable, we'll make use of echo command and add "\`" marker before and after our command to use of its output in our command line. This can be done as:
 
