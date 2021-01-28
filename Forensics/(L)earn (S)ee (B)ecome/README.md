@@ -10,4 +10,4 @@ A quick look through the [user manual](https://github.com/zed-0xff/zsteg#usage) 
 zsteg -a kittens.png
 ```
 
-This might litter(no pun intended) your screen with garbage, but knowing the flag format, its easy spot our flag!
+This might litter(no pun intended) your screen with garbage, but knowing the flag format, its easy to spot our flag!
